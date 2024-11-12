@@ -3,6 +3,7 @@ import Header from './Header';
 import About from './About';
 import useCardHooks from '../Hooks/useCardHooks';
 import Business from './Business';
+import Footer from './Footer';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
         {useCardHooks()}
         <Business/>
         <About/>
+        <Footer/>
       </div>
     </div>
   )

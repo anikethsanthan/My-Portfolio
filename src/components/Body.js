@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Services from "./Services"
 import StartProject from "./StartProject";
 import Business from "./Business";
+import Footer from "./Footer";
 
 
 
@@ -35,6 +36,11 @@ const Body = () => {
             path:"/Business",
             element:<Business/>
         },
+        {
+            path:"/Footer",
+            element:<Footer/>
+        },
+
 
     ])
 
