@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './Header'
+import useCardHooks from '../Hooks/useCardHooks'
 
 const Projects = () => {
   return (
     <div>
       <Header/>
-      <div>
-
+      <div className='flex-col'>
+       {useCardHooks()}
       </div>
-      <h1>Hello Projects page</h1>
     </div>
   )
 }

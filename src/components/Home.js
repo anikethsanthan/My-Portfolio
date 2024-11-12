@@ -1,11 +1,14 @@
 import React from 'react'
 import Header from './Header';
+import About from './About';
+import useCardHooks from '../Hooks/useCardHooks';
+import Business from './Business';
 
 const Home = () => {
   return (
     <div>
       <Header/>
-      <div className='mt-[16%] m-6'>
+      <div className='mt-[20%] m-6 border-b-2'>
        
         <h1 className='text-6xl mb-2 w-[50%] m-14'>Creating seamless digital experinces though code...</h1>
         <p className='text-xl w-[60%] m-14'>
@@ -14,6 +17,12 @@ const Home = () => {
          My goal is to bring engaging, accessible, 
          and high-performing solutions to life.
         </p>
+      </div>
+      <div className=' h-auto'>
+      <h1 className='text-5xl w-[50%] ml-20 mb-6 '>My work</h1>
+        {useCardHooks()}
+        <Business/>
+        <About/>
       </div>
     </div>
   )
