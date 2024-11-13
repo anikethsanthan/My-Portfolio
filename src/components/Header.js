@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="flex justify-between m-6">
       <div className="text-xl font-bold" >
-        <p  className="cursor-pointer" onClick={()=>navigate("/")}>ANIKETH SANTHAN</p>
+        <p  className="cursor-pointer hover:skew-y-12" onClick={()=>navigate("/")}>ANIKETH SANTHAN</p>
       </div>
       <div className="flex justify-evenly pl-5 ">
         <p className='pr-5  text-xl cursor-pointer' onClick={()=>navigate(location.pathname==="/About"? "/":"/About")}> 
