@@ -4,8 +4,10 @@ import About from './About';
 import useCardHooks from '../Hooks/useCardHooks';
 import Business from './Business';
 import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate=useNavigate();
   return (
     <div>
       <Header/>
@@ -24,6 +26,15 @@ const Home = () => {
         {useCardHooks()}
         <Business/>
         <About/>
+        <button
+        onClick={()=>navigate("/StartProject")}
+          type="submit"
+          className="w-[50%] m-auto flex justify-center
+           bg-indigo-600 text-white font-semibold py-2 
+            rounded-lg hover:bg-indigo-700 transition-colors"
+        >
+          Send me a message?
+        </button>
         <Footer/>
       </div>
     </div>
