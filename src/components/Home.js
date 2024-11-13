@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <div>
       <Header/>
+      <div className='scrollwatcher'></div>
       <div className='mt-[25%] m-6 border-b-2'>
        
         <h1 className='text-6xl mb-2 w-[50%] m-14'>Creating seamless digital experinces though code...</h1>
@@ -21,9 +22,11 @@ const Home = () => {
          and high-performing solutions to life.
         </p>
       </div>
-      <div className=' h-auto'>
+      <div className='myWork h-auto '>
       <h1 className='text-5xl w-[50%] ml-20 mb-6 '>My work</h1>
         {useCardHooks()}
+        </div>
+        <div>
         <Services/>
         <About/>
         <button

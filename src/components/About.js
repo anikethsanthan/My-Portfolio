@@ -7,7 +7,7 @@ const About = () => {
   const location=useLocation();
   
   return (
-    <div className=' '>
+    <div className='aboutus '>
       {location.pathname !=="/" && <Header/> }
       
 

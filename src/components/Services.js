@@ -9,7 +9,7 @@ const Services = () => {
       <div>
          {location.pathname !=="/" && <Header/> }
         <div>
-        <div className='mt-[7%]  m-6 border-b-2 '>
+        <div className='mt-[7%]  m-6 border-b-2  '>
        
         <h1 className='text-6xl mb-2 w-[50%] m-14'>Let's talk business</h1>
         <p className='text-xl w-[60%] m-14'>

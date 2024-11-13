@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .scrollwatcher{
+    height: 10px;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    background-color: lime;
+    width: 100%;
+    scale: 0 1;
+    transform-origin: left;
+    animation:scrollwatcher linear;
+    animation-timeline: scroll();
+}
+
+@keyframes scrollwatcher{
+    to {scale: 1 1;}
+} */
+
+
+.myWork{
+    scale:.8; opacity: 0;
+ animation: fade-in linear forwards;
+ animation-timeline: view();
+ animation-range: 250px 500px;
+}
+@keyframes fade-in{
+    
+    to{scale:1; opacity: 1}
+}
