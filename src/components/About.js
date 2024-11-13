@@ -1,13 +1,16 @@
 import React from 'react'
 import Header from './Header'
 import { useLocation } from 'react-router-dom'
+import Footer from './Footer'
 
 const About = () => {
   const location=useLocation();
   
   return (
     <div className=' '>
-      {location.pathname !=="/" && <Header/>}
+      {location.pathname !=="/" && <Header/> }
+      
+
       
       <div className='flex justify-evenly mb-4 '>
       <img src="IMG_9994.JPG" alt="myPhoto" className='w-80 h-auto m-6 ml-56 mt-[5%] rounded-full'></img>
@@ -49,6 +52,7 @@ const About = () => {
           </div>
           </div>
       </div>
+      {location.pathname !=="/" && <Footer/> }
     </div>
   )
 }
