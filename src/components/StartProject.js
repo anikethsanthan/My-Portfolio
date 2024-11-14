@@ -43,6 +43,7 @@ const StartProject = () => {
     <div>
        {location.pathname !=="/" && <Header/> }
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <div className='m-4'>
       <form  onSubmit={handleSubmit}
        className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg" id="contactForm">
         <h2 className="text-2xl font-bold mb-6 text-gray-800">Contact Us</h2>
@@ -54,7 +55,7 @@ const StartProject = () => {
           <input
             type="text"
             id="name"
-            placeholder="Your full name"
+            placeholder=" Full name"
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 "
             required
             value={name}
@@ -69,7 +70,7 @@ const StartProject = () => {
           <input
             type="email"
             id="email"
-            placeholder="Your email address"
+            placeholder="Email address"
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
             required
             value={email}
@@ -86,7 +87,7 @@ const StartProject = () => {
           <input
             type="tel"
             id="phone"
-            placeholder="Your phone number"
+            placeholder=" Phone no."
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
             value={phone}
             onChange={(e)=>setPhone(e.target.value)}
@@ -99,7 +100,7 @@ const StartProject = () => {
           <input
             type="text"
             id="company"
-            placeholder="Your company name"
+            placeholder=" Company "
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
             value={company}
             onChange={(e)=>setCompany(e.target.value)}
@@ -129,7 +130,7 @@ const StartProject = () => {
           Send Message
         </button>
       </form>
-      
+      </div> 
     </div>
     
     {location.pathname !=="/" && <Footer/> }

@@ -12,10 +12,10 @@ const Home = () => {
     <div>
       <Header/>
       <div className='scrollwatcher'></div>
-      <div className='mt-[25%] m-6 border-b-2'>
+      <div className=' mt-[70%] md:mt-[25%] m-6 border-b-2'>
        
-        <h1 className='text-6xl mb-2 w-[50%] m-14'>Creating seamless digital experinces though code...</h1>
-        <p className='text-xl w-[60%] m-14'>
+        <h1 className=' text-4xl md:text-6xl mb-2 w-full md:w-[50%] m-1 md:m-14'>Creating seamless digital experinces though code...</h1>
+        <p className='text-lg md:text-xl  w-full md:w-[60%] m-1 md:m-14'>
         Specializing in intuitive design and clean, efficient code, 
         I create web applications that prioritize user experience.
          My goal is to bring engaging, accessible, 
@@ -23,7 +23,7 @@ const Home = () => {
         </p>
       </div>
       <div className='myWork h-auto '>
-      <h1 className='text-5xl w-[50%] ml-20 mb-6 '>My work</h1>
+      <h1 className=' text-4xl md:text-5xl w-[50%] ml-10 md:ml-20 mb-6 '>My work</h1>
         {useCardHooks()}
         </div>
         <div>
@@ -32,7 +32,7 @@ const Home = () => {
         <button
         onClick={()=>navigate("/StartProject")}
           type="submit"
-          className="w-[50%] m-auto flex justify-center
+          className=" w-[90%] md:w-[50%] m-auto flex justify-center
            bg-indigo-600 text-white font-semibold py-2 
             rounded-lg hover:bg-indigo-700 transition-colors"
         >
