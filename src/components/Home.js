@@ -12,15 +12,30 @@ const Home = () => {
     <div>
       <Header/>
       <div className='scrollwatcher'></div>
-      <div className=' mt-[70%] md:mt-[25%] m-6 border-b-2'>
-       
-        <h1 className=' text-4xl md:text-6xl mb-2 w-full md:w-[50%] m-1 md:m-14'>Creating seamless digital experinces though code...</h1>
-        <p className='text-lg md:text-xl  w-full md:w-[60%] m-1 md:m-14'>
-        Specializing in intuitive design and clean, efficient code, 
-        I create web applications that prioritize user experience.
-         My goal is to bring engaging, accessible, 
-         and high-performing solutions to life.
-        </p>
+{/*       
+      <div className=' mt-[20%] md:mt-[2%] md:ml-6 mr-0 border-b-2'> */}
+        <div>
+      <div className="relative flex items-center h-[650px] m-6 md:ml-20 md:mr-0 md:mt-6  border-b-2">
+  {/* Text Section */}
+  <div className="w-full md:w-1/2 space-y-4 z-10">
+    <h1 className="text-4xl md:text-6xl  md:mt-[35%] font-semibold leading-tight">
+    Creating seamless digital experinces though code...
+    </h1>
+    <p className="text-lg md:text-xl mt-4">
+    Specializing in intuitive design and clean, efficient code, I create web applications that prioritize user experience. My goal is to bring engaging, accessible, and high-performing solutions to life.
+    </p>
+    
+  </div>
+
+  {/* Image Section */}
+  <div className="absolute right-0 top-0 w-1/2  h-full hidden md:block">
+    <img
+      src="./landing-img.svg"
+      alt="branding design element"
+      className="w-full h-full object-contain ml-14 " // Adjust opacity and styling as needed
+    />
+  </div>
+</div>
       </div>
       <div className='myWork h-auto '>
       <h1 className=' text-4xl md:text-5xl w-[50%] ml-10 md:ml-20 mb-6 '>My work</h1>
