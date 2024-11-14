@@ -30,24 +30,19 @@
     
     to{scale:1; opacity: 1}
 }
-.proje{
-    scale:.8; opacity: 0;
- animation: fade-in linear forwards;
- animation-timeline: view();
- animation-range: 250px 500px;
-}
-@keyframes fade-in{
-    
-    to{scale:1; opacity: 1}
-}
+
+
+
+
 .contain{
     width: 100%;
     position: relative;
-    height: 750px;
+    height: 1700px;
     overflow-y: auto;
+   
 }
 .card{
     position: sticky;
-    top: 0;
+    top: 10px;
     z-index: 1;
 }
