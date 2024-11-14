@@ -9,7 +9,7 @@ const Footer = () => {
             <p  onClick={()=>window.open('https://www.linkedin.com/in/aniketh-santhan')} className='cursor-pointer m-5  text-gray-500 hover:text-white mt-7'>
                 <i className="fa-brands fa-linkedin"></i>
                  Linkedin</p>
-            <p  onClick={() => window.location.href = 'mailto:aniketh.santhan@example.com'} className='cursor-pointer m-5  text-gray-500 hover:text-white  mt-7'>
+            <p  onClick={() => window.location.href = 'mailto:anikethsanthan999@gmail.com'} className='cursor-pointer m-5  text-gray-500 hover:text-white  mt-7'>
                 <i className="fa-solid fa-envelope"></i>
                  Email</p>
                  <p  onClick={()=>window.open("https://github.com/anikethsanthan")} className='cursor-pointer m-5  text-gray-500 hover:text-white  mt-7'>
