@@ -28,7 +28,7 @@ const Home = () => {
   </div>
 
   {/* Image Section */}
-  <div className="absolute right-0  bottom-40 md:bottom-0 md:top-0  w-full md:w-1/2  h-full ">
+  <div className="absolute right-0 -z-10 bottom-40 md:bottom-0 md:top-0  w-full md:w-1/2  h-full ">
     <img
       src="./landing-img.svg"
       alt="branding design element"
