@@ -98,7 +98,9 @@ const Services = () => {
 
          <div className=' md:flex p-6 card h-auto md:h-[850px] w-full  bg-[#EE8657]'>
          <div className='md:w-1/2 md:pl-10 pb-2 md:pb-10 pt-10'>
-          <img  className=" hidden md:block mt-10 flex justify-center w-52 h-40 mb-4 ml-6" src="./branding.svg" alt="weblogo"></img>
+         <div className=" hidden md:block">
+          <img  className="  mt-10 flex justify-center w-52 h-40 mb-4 ml-6" src="./branding.svg" alt="weblogo"></img>
+          </div>
           <h1 className=' text-4xl md:text-6xl text-white  mb-4'>Branding</h1>
           <h2 className=' text-2xl md:text-4xl text-gray-200 font-light'>Develop a cohesive brand that stands the test of time</h2>
           </div>
@@ -131,7 +133,9 @@ const Services = () => {
 
          <div className=' md:flex p-6 card h-auto md:h-[850px] w-full  bg-[#0E5CF2]'>
          <div className='md:w-1/2 md:pl-10 pb-2 md:pb-10 pt-10'>
-          <img  className="hidden md:block mt-10 flex justify-center w-52 h-40 mb-4 ml-6" src="./arrow.svg" alt="weblogo"></img>
+         <div className="hidden md:block">
+          <img  className=" mt-10 flex justify-center w-52 h-40 mb-4 ml-6" src="./arrow.svg" alt="weblogo"></img>
+          </div>
           <h1 className=' text-4xl md:text-6xl text-white  mb-4'>Open source collaboration</h1>
           <h2 className=' text-2xl md:text-4xl text-gray-200 font-light'>Building a better world, one commit at a time.</h2>
           </div>
