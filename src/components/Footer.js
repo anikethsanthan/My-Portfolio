@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className= 'footer bg-black text-white h-[270px] md:h-[250px]'>
         <div >
-        <div className='mb-2 ml-9 mr-9 mt-4 pt-5 flex  border-gray-600 border-b-2'>
+        <div className='mb-2 ml-9 mr-9  pt-5 flex  border-gray-600 border-b-2'>
             <h1 className=" hidden sm:block text-2xl font-bold  mb-1 m-5 ">Connect with me at :</h1>
             <p  onClick={()=>window.open('https://www.linkedin.com/in/aniketh-santhan')} className='cursor-pointer m-5  text-gray-500 hover:text-white mt-7'>
                 <i className="fa-brands fa-linkedin"></i>

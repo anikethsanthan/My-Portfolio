@@ -4,12 +4,11 @@ import About from './About';
 import useCardHooks from '../Hooks/useCardHooks';
 import Footer from './Footer';
 import { useNavigate } from 'react-router-dom';
-import Services from './Services';
 
 const Home = () => {
   const navigate=useNavigate();
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Header/>
       <div className='scrollwatcher'></div>
 {/*       
@@ -42,13 +41,28 @@ const Home = () => {
         {useCardHooks()}
         </div>
         <div>
-        <Services/>
+        <div className='mt-[7%]  m-6 border-b-2  '>
+       
+        <h1 className=' text-4xl md:text-6xl mb-4 md:mb-2 w-[90%] md:w-[50%] m-1 mt-14 md:mt-0 md:m-14'>Let's talk business</h1>
+        <p className='  text-lg md:text-xl w-[90%] m-1 md:m-14'>
+        With a strong foundation in web development,
+         I can help bring your tech ideas to life by
+          implementing the right solutions for your business needs.
+        </p>
+        
+            <ul className=' text-lg md:text-xl w-[90%] m-2 md:m-14 md:ml-[10%] mb-10' >
+                <li><i className="fa-solid fa-arrow-right"></i> Frontend Contracting</li>
+                <li><i className="fa-solid fa-arrow-right"></i> Interactive Design Prototyping</li>
+                <li><i className="fa-solid fa-arrow-right"></i> Open Source Collaboration</li>
+                <li><i className="fa-solid fa-arrow-right"></i> Custom UI Component Design and Development</li>
+            </ul> 
+            </div> 
         <About/>
         <button
         onClick={()=>navigate("/StartProject")}
           type="submit"
           className=" w-[90%] md:w-[50%] m-auto flex justify-center
-           bg-indigo-600 text-white font-semibold py-2 
+           bg-indigo-600 text-white font-semibold py-2 mb-4
             rounded-lg hover:bg-indigo-700 transition-colors"
         >
           Send me a message

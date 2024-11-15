@@ -32,7 +32,11 @@
 }
 
 
-
+.box{
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+}
 
 .contain{
     width: 100%;
@@ -41,8 +45,10 @@
     overflow-y: auto;
    
 }
-.card{
+@media (min-width: 768px){
+.card {
     position: sticky;
-    top: 10px;
+    top: 0 ;
     z-index: 1;
+}
 }

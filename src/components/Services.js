@@ -10,7 +10,7 @@ const Services = () => {
   return (
       <div>
          {location.pathname !=="/" && <Header/> }
-        <div className='  overflow-x-hidden'>
+        <div className=' contain overflow-x-hidden'>
         <div className='mt-[7%]  m-6 border-b-2  '>
        
         <h1 className=' text-4xl md:text-6xl mb-4 md:mb-2 w-[90%] md:w-[50%] m-1 mt-14 md:mt-0 md:m-14'>Let's talk business</h1>
@@ -19,21 +19,13 @@ const Services = () => {
          I can help bring your tech ideas to life by
           implementing the right solutions for your business needs.
         </p>
-        {location.pathname ==="/" && <>
-            <ul className=' text-lg md:text-xl w-[90%] m-2 md:m-14 md:ml-[10%] mb-10' >
-                <li><i className="fa-solid fa-arrow-right"></i> Frontend Contracting</li>
-                <li><i className="fa-solid fa-arrow-right"></i> Interactive Design Prototyping</li>
-                <li><i className="fa-solid fa-arrow-right"></i> Open Source Collaboration</li>
-                <li><i className="fa-solid fa-arrow-right"></i> Custom UI Component Design and Development</li>
-            </ul> </>}
-            </div> 
+        </div> 
         
          {location.pathname !=="/" && <>
-          <div className=' w-full contain'>
+         <div className=''>
+          <div className=' w-full '>
 
-
-
-         <div className=' md:flex p-6 card h-[600px] md:h-[850px] w-full  bg-[#0E5CF2]'>
+         <div className=' md:flex p-6 card h-[700px] md:h-[850px] w-full  bg-[#0E5CF2]'>
           <div className='md:w-1/2 md:pl-10 pb-2 md:pb-10 pt-10'>
           <div className='hidden md:block'>
           <img  className=" mt-10 flex justify-center w-52 h-40 mb-4 ml-6 " src="./webimg.svg" alt="weblogo"></img>
@@ -65,7 +57,7 @@ const Services = () => {
 
 
 
-         <div className=' md:flex p-6 card h-auto md:h-[850px] w-full  bg-[#19B156]'>
+         <div className=' md:flex p-6 card h-[700px] md:h-[850px] w-full  bg-[#19B156]'>
          <div className='md:w-1/2 md:pl-10 pb-2 md:pb-10 pt-10'>
          <div className="hidden md:block">
           <img  className=" mt-10 flex justify-center w-52 h-40 mb-4 ml-6" src="./corp-des.svg" alt="weblogo"></img>
@@ -96,7 +88,7 @@ const Services = () => {
 
 
 
-         <div className=' md:flex p-6 card h-auto md:h-[850px] w-full  bg-[#EE8657]'>
+         <div className=' md:flex p-6 card h-[700px] md:h-[850px] w-full  bg-[#EE8657]'>
          <div className='md:w-1/2 md:pl-10 pb-2 md:pb-10 pt-10'>
          <div className=" hidden md:block">
           <img  className="  mt-10 flex justify-center w-52 h-40 mb-4 ml-6" src="./branding.svg" alt="weblogo"></img>
@@ -164,6 +156,7 @@ const Services = () => {
           </div>
           </div>  
 
+         </div>
          </div>
          </> }
           
