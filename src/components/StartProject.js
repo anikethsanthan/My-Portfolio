@@ -40,9 +40,30 @@ const StartProject = () => {
 
   }
   return (
-    <div>
+    <div className='overflow-x-hidden'>
        {location.pathname !=="/" && <Header/> }
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+       <div className=' flexx-none md:flex justify-evenly'>
+       <div className=' w-[95%] md:w-1/3 m-6 mb-1 md:m-0 border-b-2'>
+       <h1 className="text-3xl md:text-4xl  mt-[48%] md:mt-[35%] font-semibold leading-tight">
+    Get in touch...
+    </h1>
+    <p className="text-lg md:text-xl mt-4 mb-3">
+    Get in touch with me through this form. Fill out all the necessary details so I can help you out in the best way possible.
+    </p>
+    <p className='mb-1'>want to skip the form? Get in touch here</p>
+    <div className='flex justify-between w-40 cursor-pointer mb-10 '>
+    <p onClick={() => window.location.href = 'mailto:anikethsanthan999@gmail.com'}
+     className='text-blue-700 '>
+      <i className="fa-solid fa-envelope"></i> Email</p> <p onClick={()=>window.open('https://www.linkedin.com/in/aniketh-santhan')}
+        className='text-blue-700 '>
+          <i className="fa-brands fa-linkedin"></i> Linkedin
+          </p>
+          </div>
+
+       </div>
+
+
+      <div className="flex items-center justify-center min-h-screen md:bg-gray-100">
         <div className='m-4'>
       <form  onSubmit={handleSubmit}
        className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg" id="contactForm">
@@ -131,6 +152,7 @@ const StartProject = () => {
         </button>
       </form>
       </div> 
+    </div>
     </div>
     
     {location.pathname !=="/" && <Footer/> }
