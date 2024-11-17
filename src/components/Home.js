@@ -18,10 +18,10 @@ const Home = () => {
   {/* Text Section */}
   <div className="w-full md:w-1/2 space-y-4 z-10">
     <h1 className="text-4xl md:text-6xl mt-[42%] md:mt-[35%] font-semibold leading-tight">
-    Creating seamless digital experinces though code...
+    Creating seamless digital experiences through code...
     </h1>
     <p className="text-lg md:text-xl mt-4">
-    Specializing in intuitive design and clean, efficient code, I create web applications that prioritize user experience. My goal is to bring engaging, accessible, and high-performing solutions to life.
+    Specializing in intuitive design,clean and efficient code. I create web applications that prioritize user experience. My goal is to bring engaging, accessible, and high-performing solutions to life.
     </p>
     
   </div>

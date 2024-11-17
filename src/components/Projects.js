@@ -22,7 +22,7 @@ const Projects = () => {
               <p className="hidden md:block text-lg md:text-4xl my-7 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">{item.heading}</p>
                 <p className="text-sm md:text-lg my-10">{item.description}</p>
                 <button className=" rounded-lg p-2 animate-pulse md:animate-none md:border-2 border-indigo-600 hover:border-pink-600"
-                onClick={()=>window.open(item.link)}>Go to Live Website</button>
+                onClick={()=>window.open(item.link)}>Go to Live Website <i class="fa-solid fa-arrow-up-right-from-square"></i> </button>
               </div>
             </div>
           ))}
@@ -44,7 +44,7 @@ const Projects = () => {
                  electricity.</h1>
               <button  onClick={()=>window.open("https://www.taylorfrancis.com/chapters/edit/10.1201/9781003393580-138/tank-water-flow-automation-aniketh-santhan-aaditya-kumar-tomar-vikalp-arora-dharm-raj")}
               className=" rounded-lg p-2  animate-pulse md:animate-none md:border-2 border-indigo-600 hover:border-pink-600"
-                >Go to publication</button>
+                >Go to publication <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
             </div>
 
           </div>
