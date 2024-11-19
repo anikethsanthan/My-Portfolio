@@ -8,12 +8,12 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
   const navigate=useNavigate();
   return (
-    <div className='overflow-x-hidden'>
+    <div className=''>
       <Header/>
       <div className='scrollwatcher'></div>
 {/*       
       <div className=' mt-[20%] md:mt-[2%] md:ml-6 mr-0 border-b-2'> */}
-        <div>
+        <div className='overflow-x-hidden'>
       <div className="relative flex items-center h-[650px] m-6 md:ml-20 md:mr-0 md:mt-6  ">
   {/* Text Section */}
   <div className="w-full md:w-1/2 space-y-4 z-10">

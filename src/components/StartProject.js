@@ -40,9 +40,9 @@ const StartProject = () => {
 
   }
   return (
-    <div className='overflow-x-hidden'>
+    <div className=''>
        {location.pathname !=="/" && <Header/> }
-       <div className=' flexx-none md:flex justify-evenly'>
+       <div className=' flexx-none md:flex justify-evenly overflow-x-hidden'>
        <div className=' w-[95%] md:w-1/3 m-6 mb-1 md:m-0 border-b-2'>
        <h1 className="text-3xl md:text-4xl  mt-[48%] md:mt-[35%] font-semibold leading-tight">
     Get in touch...
