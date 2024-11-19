@@ -54,7 +54,11 @@ const Header = () => {
         {location.pathname ==="/Projects"? "Home":"Projects"}</p>
         <p className='pr-2 md:pr-10 text-lg  cursor-pointer ' onClick={()=>navigate(location.pathname==="/Services"? "/":"/Services")}>
         {location.pathname ==="/Services"? "Home":"Services"}</p>
-        <p className='pr-2 md:pr-10 text-lg  cursor-pointer ' onClick={()=>navigate(location.pathname==="/StartProject"? "/":"/StartProject")}>
+        <p className=' bg-black text-white rounded-lg p-2 pr-3 pl-3 
+        md:mr-12 -mt-[6px]
+         font-thin
+         cursor-pointer ' 
+         onClick={()=>navigate(location.pathname==="/StartProject"? "/":"/StartProject")}>
         {location.pathname ==="/StartProject"? "Home":"Get in touch"}</p>
       </div>
 
