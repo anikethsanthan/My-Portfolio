@@ -41,3 +41,32 @@ export const projectData= [
          description:"I specialize in crafting responsive  websites and Open-source contributions have been an incredibly rewarding part of my journey as an engineer. I enjoy the collaborative spirit of open source, where engineers from all over the world come together to build, improve, and share solutions freely. I find joy in working on diverse projects, contributing to codebases, fixing bugs, and even helping to shape new features. Every contribution, whether big or small, feels meaningful because it not only strengthens my skills but also benefits the wider developer community. I make it a priority to contribute as much as possible, staying active on platforms like GitHub and engaging with projects that align with my expertise and interests."},
 
  ]       
+
+
+
+
+//  export const  langText=["Welcoming you","आपका स्वागत है","ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ","तुमचे स्वागत आहे"]
+
+ export const langText = [
+    "Welcoming you", // English
+    "आपका स्वागत है", // Hindi
+    "আপনাকে স্বাগতম", // Bengali
+    "आपले स्वागत आहे", // Marathi
+    "તમારું સ્વાગત છે", // Gujarati
+    "ನಿಮ್ಮ ಸ್ವಾಗತ", // Kannada
+    "உங்களை வரவேற்கின்றோம்", // Tamil
+    "మీకు స్వాగతం", // Telugu
+    "സ്വാഗതം", // Malayalam
+    "ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ", // Punjabi
+    "ଆପଣଙ୍କୁ ସ୍ଵାଗତ", // Odia
+    "ਤੁહાડું સ્વાગત છે", // Sindhi
+    "স্বাগতম", // Assamese
+    "ಸ್ವಾಗತ", // Konkani
+    "ನಿಮ್ಮ ಸ್ವಾಗತ", // Tulu
+    "आपल्याचे स्वागत आहे", // Maithili
+    "आपको स्वागत छ", // Bhojpuri
+    "आपकै स्वागत बा", // Awadhi
+    "آپ کا خیرمقدم ہے", // Urdu
+    "তোমাক স্বাগত", // Manipuri (Meitei)
+    "བཀྲིས་བདེ་ལེགས།", // Tibetan
+  ];
