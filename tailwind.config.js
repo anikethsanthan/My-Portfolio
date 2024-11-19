@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily: {
         albert: ['Albert Sans', 'sans-serif'],
+        urbanist: ['Urbanist', 'sans-serif'],
       },
     },
   },

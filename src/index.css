@@ -48,7 +48,7 @@
 @media (min-width: 768px){
 .card {
     position: sticky;
-    top: 0 ;
+    top: 26px ;
     z-index: 1;
 }
 }
