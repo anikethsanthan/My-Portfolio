@@ -2,22 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .scrollwatcher{
-    height: 10px;
-    position: fixed;
-    top:0;
-    z-index: 1000;
-    background-color: lime;
-    width: 100%;
-    scale: 0 1;
-    transform-origin: left;
-    animation:scrollwatcher linear;
-    animation-timeline: scroll();
-}
 
-@keyframes scrollwatcher{
-    to {scale: 1 1;}
-} */
 
 
 .myWork{
@@ -51,4 +36,18 @@
     top: 0 ;
     z-index: 1;
 }
+}
+
+/* Import Urbanist Font */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
+body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* Import Albert Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
+
+#smalltext{
+    font-family: 'Albert Sans', sans-serif;
 }
