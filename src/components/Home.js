@@ -47,24 +47,24 @@ const Home = () => {
         <div className='mt-[7%]  m-6   '>
        
         <h1 className=' text-4xl md:text-5xl  w-[90%] md:w-[50%] mb-4 md:mb-2 m-1 mt-14 md:mt-0 md:mr-14 md:ml-14  md:font-semibold'>Let's Talk Business</h1>
-        <p  className='  text-lg md:text-xl w-[90%] m-1 md:mt-5 md:mr-14 md:ml-14 '>
+        <p  className=' font-albert text-lg md:text-xl w-[90%] m-1 md:mt-5 md:mr-14 md:ml-14 '>
         With a strong foundation in web development,
          I can help bring your tech ideas to life by
           implementing the right solutions for your business needs.
         </p>
         
-            <ul  className=' text-lg md:text-xl w-[90%] m-2  md:mt-5 md:mr-14  md:ml-[10%] mb-10' >
-                <li ><i className="fa-solid fa-arrow-right fa-sm pr-3"></i> Frontend Contracting</li>
-                <li ><i className="fa-solid fa-arrow-right fa-sm pr-3"></i> Interactive Design Prototyping</li>
-                <li ><i className="fa-solid fa-arrow-right fa-sm pr-3"></i> Open Source Collaboration</li>
-                <li ><i className="fa-solid fa-arrow-right fa-sm pr-3"></i> Custom UI Component Design and Development</li>
+            <ul className=' text-lg md:text-lg w-[90%] m-2  md:mt-5 md:mr-14  md:ml-[10%] mb-10 font-albert' >
+                <li className='font-albert'><i className="fa-solid fa-arrow-right fa-sm pr-3"></i> Frontend Contracting</li>
+                <li className='font-albert'><i className="fa-solid fa-arrow-right fa-sm pr-3"></i> Interactive Design Prototyping</li>
+                <li className='font-albert'><i className="fa-solid fa-arrow-right fa-sm pr-3"></i> Open Source Collaboration</li>
+                <li className='font-albert'><i className="fa-solid fa-arrow-right fa-sm pr-3"></i> Custom UI Component Design and Development</li>
             </ul> 
             </div> 
         
         <button
         onClick={()=>navigate("/StartProject")}
           type="submit"
-          className=" w-[90%] md:w-auto m-auto p-3 flex justify-center
+          className=" font-albert w-[90%] md:w-auto m-auto p-3 flex justify-center
            bg-black text-white font-thin py-2 mb-20
             rounded-lg hover:scale-105 transition-colors"
         >

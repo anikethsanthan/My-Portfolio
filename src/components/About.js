@@ -14,11 +14,15 @@ const About = () => {
       
       <div className='md:flex justify-evenly mb-4   m-4 md:m-0'>
         <div className='flex justify-center md:flex-none'>
-      <img src="./My-photo.png" alt="myPhoto" className=' w-60 md:w-80 h-[400px] md:h-auto m-6   md:ml-56 mt-[18%] md:mt-[5%] rounded-full'></img>
+        <img 
+  src="./My-photo-crp.jpg" 
+  alt="myPhoto" 
+  className='w-60 md:w-[400px] h-60 md:h-[400px] m-6 md:ml-56 mt-[18%] md:mt-[20%] rounded-full object-cover' 
+/>
       </div>
       <div className=' m-4 md:m-6 md:mt-[9%] rounded-lg '>
       <h1 className=' text-4xl md:text-5xl mb-5 font-semibold' >About me</h1>
-      <p className=' w-[95%] md:w-1/2'>
+      <p  className=' w-[95%] md:w-1/2 font-albert'>
       My name is Aniketh Santhan. I am a
       Passionate and detail-oriented Frontend Web Developer 
       with a strong foundation in HTML5, CSS3, and JavaScript(ES6+), 
@@ -32,25 +36,25 @@ const About = () => {
       </p>
       </div>
       </div>
-      <div className=' ml-8 md:ml-56 h-auto md:h-96 border-b-2 shadow-2xl mb-10'>
+      <div className=' ml-8 md:ml-56 h-auto md:h-96  mb-10'>
         <h1 className=' text-4xl md:text-5xl ml-8 md:ml-14 mb-1 md:mb-9 py-10 font-semibold'>My Skills</h1>
         <div className='md:flex  ml-[5%] md:ml-[15%]'>
           <div className='mb-4'>
-        <h1 className='text-2xl ml-8 md:ml-14 mb-4'>Programming Languages</h1>
-        <ul className=' ml-20'>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li >JavaScript(ES6+)</li>
+        <h1 className=' font-albert text-2xl ml-8 md:ml-14 mb-4'>Programming Languages</h1>
+        <ul className='font-albert ml-20'>
+          <li className='font-albert'>HTML</li>
+          <li className='font-albert'>CSS</li>
+          <li  className='font-albert'>JavaScript(ES6+)</li>
           </ul>
           </div>
           <div className='mb-6'>
-        <h1 className='text-2xl ml-8 md:ml-14 mb-4'>Frameworks and Libraries</h1>
+        <h1 className=' font-albert text-2xl ml-8 md:ml-14 mb-4'>Frameworks and Libraries</h1>
         <ul className=' ml-20'>
-          <li>React.js</li>
-          <li>Tailwind CSS</li>
-          <li>Redux (for state management)</li>
-          <li>Bootstrap</li>
-          <li>Formik</li>
+          <li className='font-albert'>React.js</li>
+          <li className='font-albert'>Tailwind CSS</li>
+          <li className='font-albert'>Redux (for state management)</li>
+          <li className='font-albert'> Bootstrap</li>
+          <li className='font-albert'>Formik</li>
           </ul>
           </div>
           </div>
