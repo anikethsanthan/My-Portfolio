@@ -59,7 +59,7 @@ const Header = () => {
          font-thin
          cursor-pointer ' 
          onClick={()=>navigate(location.pathname==="/StartProject"? "/":"/StartProject")}>
-        {location.pathname ==="/StartProject"? "Home":"Get in touch"}</p>
+        Get in touch</p>
       </div>
 
       
