@@ -66,3 +66,31 @@ body {
 #smalltext{
     font-family: 'Albert Sans', sans-serif;
 }
+
+ /* .typing-container {
+      font-family: 'Arial', sans-serif;
+      font-size: 24px;
+      color: #333;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 22ch;
+      border-right: 2px solid #333; 
+      animation: typing 3s steps(22), blink 0.6s infinite step-start;
+    }
+
+   
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 22ch; 
+      }
+    }
+
+ 
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    } */

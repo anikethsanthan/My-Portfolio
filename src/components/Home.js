@@ -18,11 +18,14 @@ const Home = () => {
       <div className="relative flex items-center h-[650px] m-6 md:ml-20 md:mr-0 md:mt-6  ">
   {/* Text Section */}
   <div className="w-full md:w-1/2 space-y-4 z-10">
+  
   <div 
-  className='text-4xl font-semibold
+  className=' text-4xl font-semibold pb-4 pt-4
   text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-urbanist'>
     {useLanguage()}
     </div>
+
+
     <h1 className="text-4xl md:text-6xl mt-[42%] md:mt-[5%] font-semibold leading-tight">
     Creating seamless<br></br> 
     digital experiences <br></br>through code

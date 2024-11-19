@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className= 'footer bg-black  text-white h-[270px] md:h-[450px]'>
+    <div className= 'footer bg-black  text-white h-[270px] md:h-[300px]'>
 
 
         <div className='flex justify-center pt-7 ' >
 
-        <div className=' bg-white text-black w-auto h-16 rounded-2xl flex justify-center border-gray-600 border-b-2'>
+        {/* <div className=' bg-white text-black w-auto h-16 rounded-2xl flex justify-center border-gray-600 border-b-2'>
 
             <h1 className="  bg-black text-white rounded-xl  hidden sm:block text-lg font-medium p-2   m-2   ">
               Connect with me on: 
@@ -25,7 +25,7 @@ const Footer = () => {
               
                  Github</p>
                  </div>
-              
+               */}
         </div>
 
 
@@ -45,13 +45,13 @@ const Footer = () => {
 
 
         <span className='w-[50%] '>
-        {/* <p className="hidden sm:block text-lg md:text-xl font-extralight mb-2">
+        <p className="hidden sm:block text-lg md:text-xl font-extralight mb-2">
            
-            </p> */}
+            </p>
 
 
 
-             {/* <div className='text-end mb-2 ml-9 mr-9   '>
+             <div className='text-end mb-2 ml-9 mr-9   '>
             <h1 className=" hidden sm:block text-2xl font-medium  mb-1 m-5 mt-10 pr-6 ">Connect with me on:</h1>
             <div className=' flex  justify-end -mt-5 pl-10'>
             <p  onClick={()=>window.open('https://www.linkedin.com/in/aniketh-santhan')} className='cursor-pointer m-5  text-gray-500 text-lg  hover:text-white mt-7'>
@@ -64,7 +64,7 @@ const Footer = () => {
               
                  Github</p>
                  </div>
-                 </div> */}
+                 </div>
         </span>
         </div>
         <p className=' font-albert font-thin mb-2 px-14 -mt-3'>2024© All Rights Reserved to Aniketh Santhan</p>
