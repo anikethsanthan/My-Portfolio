@@ -76,7 +76,7 @@ const Home = () => {
         <button
         onClick={()=>navigate("/StartProject")}
           type="submit"
-          className=" font-albert w-[90%] flex  md:flex-none justify-center md:w-[28rem] md:ml-[10rem] m-auto p-3 
+          className=" font-albert w-[90%] flex  md:flex-none justify-center md:w-[14rem] md:ml-[10rem] m-auto p-3 
            bg-black text-white font-thin py-2 mb-20
             rounded-lg hover:scale-105 transition-colors"
         >
