@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className= 'footer bg-black  text-white h-[270px] md:h-[300px]'>
+    <div className= 'footer bg-black  text-white h-[350px] md:h-[300px]'>
 
 
         <div className='flex justify-center pt-7 ' >
@@ -31,12 +31,12 @@ const Footer = () => {
 
 
 
-        <div>
-          <div  className='md:flex m-9 md:mr-14 ml-14 mt-14 mb-5 '>
+        <div >
+          <div  className='md:flex m-9 md:mr-14 ml-14 mt-14 mb-5 border-gray-400 border-b-2'>
 
         <span className=' w-[50%] '>
-        <p className=" text-xl md:text-6xl font-bold  mb-2 ">Aniketh Santhan</p>
-        <p className=" text-lg md:text-4xl text-[#C8C8C8] font-thin  mb-11 ">
+        <p className=" text-4xl md:text-6xl font-bold  mb-2 ">Aniketh Santhan</p>
+        <p className=" text-xl md:text-4xl text-[#C8C8C8] font-thin mb-5 md:mb-11 ">
            Frontend Web Developer
              </p>
        
@@ -51,18 +51,18 @@ const Footer = () => {
 
 
 
-             <div className='text-end mb-2 ml-9 mr-9   '>
-            <h1 className=" hidden sm:block text-2xl font-medium  mb-1 m-5 mt-10 pr-6 ">Connect with me on:</h1>
-            <div className=' flex  justify-end -mt-5 pl-10'>
-            <p  onClick={()=>window.open('https://www.linkedin.com/in/aniketh-santhan')} className='cursor-pointer m-5  text-gray-500 text-lg  hover:text-white mt-7'>
+             <div className=' md:text-end mb-2 md:ml-9 mr-9   '>
+            <h1 className=" text-lg md:text-2xl font-medium  md:mb-1 md:m-5 md:mt-10  md:pr-6 ">Connect with me on:</h1>
+            <div className=' flex md:-mt-5 md:pl-[358px]'>
+            <p  onClick={()=>window.open('https://www.linkedin.com/in/aniketh-santhan')} className='cursor-pointer mt-2 mb-2 mr-5 md:m-5   text-gray-500 text-lg  hover:text-white md:mt-7'>
                 
-                 LinkedIn</p>
-            <p  onClick={() => window.location.href = 'mailto:anikethsanthan999@gmail.com'} className='cursor-pointer m-5  text-gray-500 hover:text-white text-lg mt-7'>
+            <i class="fa-brands fa-linkedin"></i> </p>
+            <p  onClick={() => window.location.href = 'mailto:anikethsanthan999@gmail.com'} className='cursor-pointer mt-2 mb-2 mr-5 md:m-5  text-gray-500 hover:text-white text-lg md:mt-7'>
                
-                 Email</p>
-                 <p  onClick={()=>window.open("https://github.com/anikethsanthan")} className='cursor-pointer m-5  text-gray-500 text-lg  hover:text-white  mt-7'>
+            <i class="fa-solid fa-envelope"></i></p>
+                 <p  onClick={()=>window.open("https://github.com/anikethsanthan")} className='cursor-pointer mt-2 mb-2 mr-5 md:m-5  text-gray-500 text-lg  hover:text-white  md:mt-7'>
               
-                 Github</p>
+                 <i class="fa-brands fa-github"></i></p>
                  </div>
                  </div>
         </span>

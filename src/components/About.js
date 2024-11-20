@@ -38,11 +38,11 @@ const About = () => {
       </p>
       </div>
       </div>
-      <div className=' ml-8 md:ml-6  h-auto md:h-80  '>
+      <div className=' ml-8 md:ml-6  h-auto md:h-auto  '>
         <h1 className=' text-4xl md:text-5xl ml-0 md:ml-14 mb-1 md:mb-6 pt-10 font-semibold'>My Skills</h1>
         <div className='md:flex  ml-[5%] md:ml-[5%]'>
           <div className='mb-4'>
-        <h1 className=' font-albert text-xl -ml-[14px] mb-4'>Programming Languages, Frameworks and Libraries I'm proficient in</h1>
+        <h1 className=' font-albert  -ml-[14px] mb-4'>Programming Languages, Frameworks and Libraries I'm proficient in</h1>
         <div className='overflow-hidden relative'>
         <div className="relative w-full h-full ">
     {/* Gradient mask for edges */}
@@ -80,18 +80,33 @@ const About = () => {
       <li className="bg-slate-300 p-2 rounded-lg m-2">Formik</li>
     </ul>
   </div>
+  
           </div>
+          {location.pathname !=="/" &&<>
+          <div className=''>
+          <h1 className=' text-4xl md:text-5xl -ml-4 md:-ml-[10px] mb-1 md:mb-6 pt-10 font-semibold'>My Educationol Background</h1>
+
+
+          <div className='flex'>
+          <p  className="  font-albert  -ml-[14px] mb-4 mr-4 md:w-full ">
+          I completed my BTech in Computer Science from Sharda University in 2023,
+           during which I gained a strong foundation in computer science and 
+           engineering concepts.<br></br><br></br>
+            My academic journey equipped me with technical 
+           expertise in programming, web development, and software engineering.
+            I also developed problem-solving skills through coursework, hands-on projects,
+             and research initiatives. This period allowed me to polish my abilities in collaboration,
+              critical thinking, and innovation, preparing me for real-world challenges in the tech industry.
+      </p>
+      {/* <img src="https://images.shiksha.com/mediadata/images/1677138613phpNOsfnZ.jpeg" 
+      alt="collegelogo"
+      className='object-cover hidden md:block md:w-[400px] p-2 m-4 -mt-10  '></img> */}
+      </div>
+      
           </div>
-          {/* <div className='mb-6'>
-        <h1 className=' font-albert text-2xl -ml-2 md:ml-14 mb-4'>Frameworks and Libraries</h1>
-        <ul className=' flex  flex-wrap md:flex-none ml-1 md:ml-12'>
-          <li className='font-albert bg-slate-300 p-2 rounded-lg m-2'>React.js</li>
-          <li className='font-albert  bg-slate-300 p-2 rounded-lg m-2'>Tailwind CSS</li>
-          <li className='font-albert  bg-slate-300 p-2 rounded-lg m-2'>Redux (for state management)</li>
-          <li className='font-albert  bg-slate-300 p-2 rounded-lg m-2'> Bootstrap</li>
-          <li className='font-albert  bg-slate-300 p-2 rounded-lg m-2'>Formik</li>
-          </ul>
-          </div> */}
+          </>}
+          </div>
+          
           </div>
       </div>
       {location.pathname !=="/" && <Footer/> }

@@ -53,11 +53,11 @@ const Home = () => {
         </div>
         <About/>
         <div>
-        <div className='mt-[7%]  m-6 md:-mt-10  '>
+        <div className='mt-[7%]  m-6 md:-mt-0  '>
        
         <h1 className=' text-4xl md:text-5xl 
          w-[90%] md:w-[50%] mb-4 md:mb-2 m-1
-          mt-14 md:mt-0 md:mr-14 md:ml-14 
+          mt-14 md:mt-12 md:mr-14 md:ml-14 
            md:font-semibold'>Let's Talk Business</h1>
         <p  className=' font-albert text-lg md:text-xl w-[90%] m-1 md:mt-5 md:mr-14 md:ml-14 '>
         With a strong foundation in web development,
@@ -76,7 +76,7 @@ const Home = () => {
         <button
         onClick={()=>navigate("/StartProject")}
           type="submit"
-          className=" font-albert w-[90%] md:w-auto m-auto p-3 flex justify-center
+          className=" font-albert w-[90%] flex  md:flex-none justify-center md:w-[28rem] md:ml-[10rem] m-auto p-3 
            bg-black text-white font-thin py-2 mb-20
             rounded-lg hover:scale-105 transition-colors"
         >
