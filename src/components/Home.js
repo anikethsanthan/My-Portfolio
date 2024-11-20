@@ -20,7 +20,7 @@ const Home = () => {
   <div className="w-full md:w-1/2 space-y-4 z-10">
   
   <div 
-  className=' text-2xl md:text-4xl font-semibold pb-1 md:pb-4  pt-[120px] md:pt-4 
+  className=' text-3xl md:text-4xl font-semibold pb-1 md:pb-4  pt-[120px] md:pt-4 
   text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-urbanist'>
     {useLanguage()}
     </div>
