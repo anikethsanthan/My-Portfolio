@@ -63,8 +63,8 @@ const StartProject = () => {
        </div>
 
 
-      <div className="flex items-center justify-center min-h-screen">
-        <div className='m-4'>
+      <div className="flex items-center justify-center min-h-screen -mt-14 md:-mt-0">
+        <div className='m-4 '>
       <form  onSubmit={handleSubmit}
        className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg" id="contactForm">
         <h2 className="text-2xl font-bold mb-6 text-gray-800">Contact Us</h2>

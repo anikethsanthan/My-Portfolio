@@ -29,7 +29,7 @@ const Projects = () => {
           <h1 className=' text-4xl md:text-6xl mb-2 w-[70%] m-14 font-semibold '> My Research work</h1>
           <div className=" md:flex m-4 p-4 w-[75%]md:w-[95%] rounded-lg shadow-lg" >
           <div className="mt-4  mb-2 m-4">
-            <ProjectCards name={"Tank waterflow Automation "} image={"Iot1.jpg"}/>
+            <ProjectCards name={"Tank waterflow Automation "} image={"./IOT1.jpg"}/>
             </div>
             <div>
             <p className=" hidden md:block text-lg md:text-4xl mt-16 text-transparent bg-clip-text 
