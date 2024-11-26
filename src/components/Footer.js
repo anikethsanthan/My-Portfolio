@@ -67,7 +67,7 @@ const Footer = () => {
                  </div>
         </span>
         </div>
-        <p className=' font-albert font-thin mb-2 px-14 -mt-3'>2024© All Rights Reserved to Aniketh Santhan</p>
+        <p className=' font-albert text-gray-400  font-extralight md:font-thin mb-2 px-14 -mt-3'>2024© All Rights Reserved to Aniketh Santhan</p>
         </div>
       
     </div>

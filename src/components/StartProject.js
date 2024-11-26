@@ -47,7 +47,7 @@ const StartProject = () => {
        <h1 className="text-3xl md:text-4xl  mt-[15%] md:mt-[35%]  leading-tight font-semibold font-urbanist">
     Get in touch
     </h1>
-    <p className="text-lg md:text-xl mt-4 mb-3 mr-5">
+    <p className="text-lg md:text-xl mt-4 mb-3 mr-4">
     Get in touch with me through this form. Fill out all the necessary details so I can help you out in the best way possible.
     </p>
     <p className='mb-1'>want to skip the form? Get in touch here</p>
