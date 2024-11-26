@@ -15,8 +15,8 @@ const useLanguage = () => {
   }, []); 
 
   return (
-    <div>
-      <p className='typing-container '>{currentText}</p>
+    <div >
+      <p className='typing '>{currentText}</p>
     </div>
   );
 }
